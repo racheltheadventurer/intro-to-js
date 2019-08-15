@@ -1,0 +1,47 @@
+// ## exercise #1 : be your own fortune teller 
+//- Store the following into variables: number of children, partner’s name, geographic location, job title
+//- Use adequate types for each variable
+//- Output your fortune to the screen like so “You will be a X in Y, and amrried to Z with N kids.”
+//
+
+let numberOfchildren = ‘4’
+let partnersName = ‘Abel’
+let city = ‘Seoul’
+let jobTitle = ‘Developer’
+
+console.log(“You will be a ” + jobTitle + ” in ” + city + “, and married to ” + partnersName + ” with ” + numberOfchildren + ” kids.“)
+
+
+//### exercise #2 : the age calculator 
+
+//forgot how old someone is? calculate it!
+
+//- Store the current year in a variable
+//- Store their birth year in a variable
+//- Calculate their 2 possible ages based on the stored values
+//- Output them to the screen like so : “They are either NM or NN’. substituting the values”
+
+const currentYear = 2019;
+const birthYear = 1990;
+
+const age = (currentYear-birthYear);
+console.log( `they are either ${age} or ${age-1}`);
+
+
+//## exercise #3 : how long would it last? 
+
+// let's say you eat your favorite snack everyday - how many do you need to last? 
+
+const currentAge = 26;
+const maxAge = 90;
+const snackPerDay = 2;
+const daysInYear = 365;
+
+const total = (maxAge-currentAge)*snackPerDay*daysInYear
+// do not use *magic numbers* - always over-communicate
+
+const lifeTimeSupply = (maxAge-currentAge)*snackPerDay*daysInYear
+
+console.log(lifeTimeSupply);
+
+console.log(`You will need ${lifeTimeSupply} to last you until the ripe age of ${maxAge}`);

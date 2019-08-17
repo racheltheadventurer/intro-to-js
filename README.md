@@ -1,11 +1,10 @@
 # intro-to-js
 
-Hiya! 
+Hiya! Welcome to my first repository. 
 
-Welcome to my first repository. 
+I've started a journey at General Assembly this week and I will be documenting literally everything I hand-code through the course. It's like a whole new world now that I am actually coding and I often feel 
+retarded but i'll be keeping my head up. 
 
-After being in IT consulting for nearly about 3 years, I've decided to sign myself up
-for the full-time (well, flex hours but full-time almost) software engineering course at one of the finest coding schools on 
-Earth called General Assembly. Can't wait to officially call myself Full Stack Developer next year!
+Divide and conquer. 
 
-I will be documenting literally everything I handcode through the course. Baby steps... x
+Xo.R 
